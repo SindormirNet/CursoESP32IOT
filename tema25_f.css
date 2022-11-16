@@ -1,0 +1,42 @@
+h1 {
+  font-size: 30px;				/*Tamaño de texto cabecera H1*/ 
+  color: red;           			/*Color del texto de cabecera*/
+}   		
+       
+header{     
+  background: #11FFC0;         		/*Color del fondo*/
+  padding: 10px;  
+  text-align: center;         		/*Alineación centrada*/
+  color: #000000;           			/*Color del texto*/
+}
+
+nav { margin: 1% auto 2% 40%;}   		/*Márgenes exteriores*/
+
+nav a {
+  text-decoration: underline overline wavy blue;	 /*Decoración enlaces*/
+  padding-right: 50px;   			/*Separación entre sus textos*/
+  color: blue;           			/*Color del texto de navegación*/
+}
+
+nav a:visited{color: black;}
+    
+section{
+  width: 80%;        			/*Ancho del texto de la sección*/
+  margin: 1% auto;   			/*Márgenes exteriores*/
+  background-color: pink;     		/*Color del fondo*/
+  padding: 8px;				/*Separación*/
+}
+    
+article{
+  border-bottom: 3px black solid; 		/*Línea entre texto*/ 
+  background-color: whitesmoke;   		/*Color de fondo*/
+  padding: 5px
+}
+
+footer{
+  background-color: #309090;			/*Color del fondo*/
+  margin-top: 5px;				/*Margen superior*/
+  text-align: center;			/*Alineación del texto*/
+  color:  white;				/*Color del texto*/
+  padding: 5px;				/*Separación*/
+}

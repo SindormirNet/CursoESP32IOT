@@ -1,0 +1,8 @@
+namespace_preferencias_app {
+  "tiempo_reconexion":10
+  "max_intentos":25
+}
+namespace_credenciales_wifi {
+  "ssid":"sindormir.net"
+  "pass:"clavesecreta"
+}
