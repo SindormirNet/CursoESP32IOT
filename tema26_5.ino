@@ -9,5 +9,5 @@ body {
   background: silver;
 }
 )delimitador";
-  server.send(200, "text/css", mi_css);
+  server.send(200, "text/css", css);
 }
