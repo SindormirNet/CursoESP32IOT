@@ -1,5 +1,5 @@
 void mqtt_connect() {
-  unsigned long num_serie = ESP.getEfuseMac() & 0xFFFFFF;
+  unsigned long num_serie = (ESP.getEfuseMac() & 0xFFFFFF000000) >> 24;
   String mqtt_cliente_id = "ESP32-" + String(num_serie);
   Serial.print("Conectando al servidor MQTT...");
   while (!mqtt_client.connected()) {
