@@ -18,13 +18,15 @@ void setup() {
 
     lectura = Serial.parseInt();
 
-    Serial.printf("\nEl número de serie introducido es %d\n", lectura);
+    Serial.print("El número de serie introducido es ");
+    Serial.println(lectura);
 
     ajustes.putUInt("serial", lectura);
 
   }
   else {
-    Serial.printf("El serial number es %d", ajustes.getUInt("serial"));
+    Serial.print("El serial number es ");
+    Serial.println(ajustes.getUInt("serial");
   }
 
   serial_no = ajustes.getUInt("serial");
@@ -33,6 +35,7 @@ void setup() {
 }
 
 void loop() {
-  Serial.printf("El número de serie de este dispositivo es: %d\n", serial_no);
+  Serial.print("El número de serie de este dispositivo es: ");
+  Serial.println(serial_no);
   delay(10000);
 }
