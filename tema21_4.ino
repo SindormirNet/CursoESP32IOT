@@ -10,7 +10,8 @@ void setup() {
   ajustes.begin("app", false);
   ajustes.putString("nombre", "sindormir");
   nombre = ajustes.getString("nombre");
-  Serial.printf("El nombre leído de la NVS es %s", nombre.c_str());
+  Serial.print("El nombre leído de la NVS es ");
+  Serial.print(nombre);
   ajustes.end();
 }
 
